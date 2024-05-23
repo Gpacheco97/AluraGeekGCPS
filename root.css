@@ -1,0 +1,15 @@
+:root {
+    --color-background-color: #f9f9f9;
+    --color-header: linear-gradient(to right, #0077B6, #00A8E8, #00D7FF, #64B5F6, #90CAF9);
+    --color-de-primer-gradiente:linear-gradient(to right, #f0f0f0, #e0e0e0, #d0d0d0, #c0c0c0, #b0b0b0);
+    --color-de-segundo-gradiente: linear-gradient(to right, #e6f0ff, #cce5ff, #b3d7ff, #99c9ff, #80bbff);
+    --color-de-tercer-gradiente: linear-gradient(to right, #ffebeb, #ffdbdb, #ffcbcb, #ffbbbb, #ffabab);
+    --color-de-cuarto-gradiente: linear-gradient(to right, #ff6b6b, #ff4d4d, #ff3333, #ff1a1a, #ff0000);
+    --color-de-segundo-texto: #FFFFFF;
+    --color-text-border: #0000FF;
+    --color-de-tercer-text: #FF0000;
+    --color-de-text-formulario:#6f6e6e;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --font-family: 'Arial, sans-serif';
+    --font-title: 'Press Start 2P', sans-serif;
+}

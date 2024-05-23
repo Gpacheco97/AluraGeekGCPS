@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>AluraGeek</title>
+
+</head>
+
+<head>
+    <body>
+
+        <header>
+            <div class="menu__icons">
+                <img class="menu__icon" src="assets/iconos/corazon.png" alt="Icono 1">
+                <img class="menu__icon" src="assets/iconos/corazon.png" alt="Icono 2">
+                <img class="menu__icon" src="assets/iconos/corazon.png" alt="Icono 3">
+                <h1 class="menu__title" >AluraGeek</h1>
+            </div>
+        </header>
+        <main class="product-container">
+            <!-- Sección listado de productos -->
+            <section id="list-products" class="home-container" data-product>
+                <div class="full-width">
+                    <h2>Mis Productos</h2>
+                </div>
+
+                <!-- Seccion cards -->
+               <!--  <section class="product-list">
+                    <article>
+                        <figure class="card" alt="Producto">
+                            <img class="card-container-img" aspect-ratio: auto; height="150px"
+                                src="https://static.clube.netshoes.com.br/produtos/tenis-nike-air-zoom-cage-3-feminino/83/HZM-0499-483/HZM-0499-483_zoom1.jpg?ts=1560355352&"
+                                alt="Producto 1">
+                            <figcaption class="card-container-info">
+                                <p class="card-container-title">Nike Zoom Cage K-3</p>
+                                <div class="card-container-price">
+                                    <p> $ 2100.00</p>
+                                    <img class="card-container-icon" src="./assets/iconos/borrar.png">
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </section> -->
+            </section>
+
+                    <!-- Sección de Form -->
+        <section class="registerSide">
+            <h2 class="full-width">
+                Registrar productos
+            </h2>
+            <form class="main__form" data-form>
+                
+                <fieldset class="form__field">
+                    <label class="field__label" for="name">Nombre</label>
+                    <input
+                        name="name"
+                        id="name"
+                        class="full__field"
+                        type="text"
+                        placeholder="Escriba el nombre del producto"
+                        minlength="3"
+                        maxlength="100"
+                        required
+                        data-name
+                    >
+                    <span class="error-message"></span>
+                </fieldset>
+                <fieldset class="form__field">
+                    <label class="field__label" for="price">Precio $</label>
+                    <input
+                        name="price"
+                        id="price"
+                        class="full__field"
+                        type="number"
+                        placeholder="Ingrese el precio del producto"
+                        minlength="1"
+                        required
+                        data-price
+                    >
+                    <span class="error-message"></span>
+                </fieldset>
+                <fieldset class="form__field">
+                    <label class="field__label" for="image">URL de la imagen</label>
+                    <input
+                        name="image"
+                        id="image"
+                        class="full__field"
+                        type="url"
+                        placeholder="Ingrese la URL de la imagen"
+                        minlength="3"
+                        required
+                        data-image
+                    >
+                    <span class="error-message"></span>
+                </fieldset>
+                <div class="Form__article">
+                    <div class="Form__botones">
+                        <button
+                            value=""
+                            class="Form__boton"
+                            id="send"
+                            type="submit"
+                        >Registrar</button>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="Form__botones">
+                        <button
+                            value=""
+                            class="Form__boton"
+                            id="delete"
+                            type="submit"
+                        >Eliminar</button>
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+            </form>
+        </section>
+        </main>
+        <!-- Sección de Footer -->
+    <section class="footer">
+        <div class= "menu__icons">
+            <img class="menu__icon" src="assets/iconos/corazon.png" alt="Icono 1">
+            <img class="menu__icon" src="assets/iconos/corazon.png" alt="Icono 2">
+            <img class="menu__icon" src="assets/iconos/corazon.png" alt="Icono 3">
+            <h1 class="menu__title" >AluraGeek</h1>
+        </div>
+        <div >
+            <p>Desarrollado por Gerardo César Pacheco Salgado</p>
+            <p>2024</p>
+        </div>
+    </section>
+    <script src="js/controladores/main.js" type="module"></script>
+    <script src="js/validador/formValidator.js" type="module"></script>
+    </body>
+</head>
